@@ -25,8 +25,7 @@ function Rec() {
   const iid = parseInt(id, 10);
   const msglength = data[topic].length;
   return (
-    <>
-      jnfjnfklsdnkl
+    <div className="mid-section">
       {iid > msglength || iid < 0 ? (
         <NotFound />
       ) : (
@@ -36,7 +35,7 @@ function Rec() {
           <p className="msg">{data[topic][iid].critic}</p>
         </div>
       )}
-    </>
+    </div>
   );
 }
 

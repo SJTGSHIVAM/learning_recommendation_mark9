@@ -1,7 +1,7 @@
 import "./About.css";
 const About = () => {
   return (
-    <div className="bcard">
+    <div className="bcard mid-section">
       <header className="head">
         <h1>Is your Bday lucky?</h1>
       </header>

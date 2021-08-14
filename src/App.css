@@ -4,6 +4,7 @@ html {
   font-size: 100%;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  min-height: 100vh;
 }
 *,
 *::before,
@@ -16,11 +17,22 @@ html {
   text-decoration: none;
   text-rendering: optimizeLegibility;
 }
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  min-height: 100vh;
+}
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(180deg, #000000 0%, #200151 100%);
+  background-attachment: fixed;
+  text-align: center;
+  color: #ffffff;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
+  min-height: 100vh;
 }
 /* .fix {
   position: fixed;
@@ -54,6 +66,9 @@ a {
   font-size: 30px;
   line-height: 36px;
   color: #ffffff;
+}
+.mid-section {
+  margin: auto;
 }
 .msg {
   color: #ffffff;

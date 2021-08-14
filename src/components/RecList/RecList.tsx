@@ -20,7 +20,7 @@ const data: {
 };
 const recList = ({ topic }: { topic: string }) => {
   return (
-    <div className="scroll">
+    <div className="scroll mid-section">
       <h2 className="rec-title fix">Pick any message to read</h2>
       {data[topic].map((rec) => {
         return (
