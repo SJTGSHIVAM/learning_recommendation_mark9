@@ -4,9 +4,10 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import About from "./components/About";
-import BdayPal from "./components/BdayPal";
+import RecList from "./components/RecList";
 
-// https://api.giphy.com/v1/gifs/translate?s=bday&api_key=dc6zaTOxFJmzC&weirdness=1
+import Rec from "./components/Rec";
+import NotFound from "./components/notfound";
 
 function App() {
   return (
@@ -14,7 +15,9 @@ function App() {
       {" "}
       <Navbar />
       <Switch>
-        <Route path="/" component={BdayPal} exact />
+        <Route path="/" component={() => <RecList topic={"dsa"} />} exact />
+        <Route path="/rec/:id/:topic" component={Rec} />
+        <Route path="/" component={NotFound} />
         <Route path="/about" exact component={About} />
       </Switch>
       <Footer />
