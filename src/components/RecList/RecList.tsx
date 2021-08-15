@@ -44,6 +44,7 @@ const RecList = ({ top }: { top: string }) => {
           );
         })}
       </div>
+      <h3 className="note">Click on Recommendation to see details</h3>
       {data[topic].map((rec) => {
         return (
           <Link to={`/rec/${rec.id}/${topic}`} key={rec.id}>
