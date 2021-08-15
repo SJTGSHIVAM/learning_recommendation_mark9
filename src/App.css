@@ -111,3 +111,18 @@ a {
 .card span {
   font-size: 1rem;
 }
+.rec-content {
+  display: flex;
+  flex-direction: column;
+  width: inherit;
+  text-align: left;
+}
+.rec-link {
+  display: inline-block;
+  max-width: 100px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.rec-critic {
+  /* max-width: 100px; */
+}

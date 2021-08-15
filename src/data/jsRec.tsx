@@ -26,7 +26,7 @@ const masgarray = [
   {
     id: 3,
     title: "Neog camp 0",
-    rating: 9.7,
+    rating: 9,
     link: "https://www.youtube.com/watch?v=Ezk2AwqgS9Q&list=PLzvhQUIpvvuj5KPnyPyWsvgyzNkX_ACPA",
     critic:
       "When it comes to teaching this guy has a different aura, here you can learn and be motivated for learning at the smae place. Again a must watch series!",
@@ -34,7 +34,7 @@ const masgarray = [
   {
     id: 4,
     title: "UI.dev",
-    rating: 8,
+    rating: 8.7,
     link: "https://ui.dev/",
     critic:
       "This guy teaches you with a very different aproach. Problem solving is the need of hour and he definitly and it is all the couses are focusing on.",

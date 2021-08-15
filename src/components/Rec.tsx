@@ -23,16 +23,23 @@ function Rec() {
   const { id, topic } = useParams<{ id: string; topic: string }>();
   console.log("here:", id, topic);
   const iid = parseInt(id, 10);
-  const msglength = data[topic].length;
+  const reclength = data[topic].length;
   return (
     <div className="mid-section">
-      {iid > msglength || iid < 0 ? (
+      {iid > reclength || iid < 0 ? (
         <NotFound />
       ) : (
-        <div>
-          <h2 className="msg-title">{data[topic][iid].title}</h2>
-          <h3 className="msg-title">{data[topic][iid].link}</h3>
-          <p className="msg">{data[topic][iid].critic}</p>
+        <div className="rec-content">
+          <h2 className="rec-title">{data[topic][iid].title}</h2>
+          <span>
+            <a
+              className="rec-link topic-tile highlight"
+              href={data[topic][iid].link}
+            >
+              Link
+            </a>
+          </span>
+          <p className="rec-critic">{data[topic][iid].critic}</p>
         </div>
       )}
     </div>
