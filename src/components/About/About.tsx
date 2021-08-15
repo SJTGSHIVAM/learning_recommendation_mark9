@@ -3,7 +3,7 @@ const About = () => {
   return (
     <div className="bcard mid-section">
       <header className="head">
-        <h1>Is your Bday lucky?</h1>
+        <h1>Learning Recommendation</h1>
       </header>
       <section className="about">
         This is a simple app create using Typescript and ReactJS Lorem ipsum

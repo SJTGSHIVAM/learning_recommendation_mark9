@@ -17,8 +17,8 @@ function App() {
       <Switch>
         <Route path="/" component={() => <RecList top={"dsa"} />} exact />
         <Route path="/rec/:id/:topic" component={Rec} />
-        <Route path="/" component={NotFound} />
         <Route path="/about" exact component={About} />
+        <Route path="/" component={NotFound} />
       </Switch>
       <Footer />
     </BrowserRouter>
