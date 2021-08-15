@@ -67,6 +67,20 @@ a {
   line-height: 36px;
   color: #ffffff;
 }
+.topic-list {
+  display: flex;
+  justify-content: space-around;
+}
+.topic-tile {
+  margin: 0.1rem;
+  padding: 0.5rem;
+  border-radius: 25px;
+  background-color: #200151;
+}
+.highlight {
+  background-color: white;
+  color: #000000;
+}
 .mid-section {
   margin: auto;
 }

@@ -15,7 +15,7 @@ function App() {
       {" "}
       <Navbar />
       <Switch>
-        <Route path="/" component={() => <RecList topic={"dsa"} />} exact />
+        <Route path="/" component={() => <RecList top={"dsa"} />} exact />
         <Route path="/rec/:id/:topic" component={Rec} />
         <Route path="/" component={NotFound} />
         <Route path="/about" exact component={About} />
