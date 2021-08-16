@@ -8,7 +8,7 @@ a {
   justify-content: center;
   align-items: center;
   font-size: 1.2rem;
-  position: sticky;
+
   top: 0;
   z-index: 20;
 }
@@ -24,7 +24,8 @@ a {
 }
 
 .nav-logo {
-  color: #ffdd40;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #64e8f1;
   align-items: center;
   margin-left: 20px;
   cursor: pointer;
@@ -67,12 +68,11 @@ a {
 
 .nav-item:hover:after {
   width: 100%;
-  background: #ffdd40;
+  background: #64e8f1;
 }
 
 .nav-item .active {
-  color: #ffdd40;
-  border: 1px solid #ffdd40;
+  color: #64e8f1;
 }
 
 .nav-icon {
@@ -100,7 +100,7 @@ a {
     z-index: 1;
   }
   .nav-item .active {
-    color: #ffdd40;
+    color: #64e8f1;
     border: none;
   }
   .nav-links {
@@ -118,6 +118,6 @@ a {
     font-size: 1.8rem;
 
     cursor: pointer;
-    color: #ffdd40;
+    color: #64e8f1;
   }
 }

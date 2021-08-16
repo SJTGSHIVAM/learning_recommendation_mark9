@@ -17,12 +17,14 @@ html {
   text-decoration: none;
   text-rendering: optimizeLegibility;
 }
+
 #root {
   display: flex;
   flex-direction: column;
   align-items: stretch;
   min-height: 100vh;
 }
+
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background: linear-gradient(180deg, #000000 0%, #200151 100%);
@@ -34,65 +36,30 @@ body {
   line-height: 1.5;
   min-height: 100vh;
 }
-/* .fix {
-  position: fixed;
-} */
+
 .msg-div {
   max-width: 95vw;
 }
+
 a {
   text-decoration: none;
   color: inherit;
 }
+
 .app {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
 }
-.head-greet {
-  font-family: Pacifico;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 30px;
-  line-height: 74px;
 
-  color: rgb(88, 124, 37);
+h1 {
+  padding: 1rem;
 }
-.msg-title {
-  font-family: Lato;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 30px;
-  line-height: 36px;
-  color: #ffffffff;
-}
-.topic-list {
-  display: flex;
-  justify-content: space-around;
-}
-.topic-tile {
-  margin: 0.1rem;
-  padding: 0.5rem;
-  border-radius: 25px;
-  background-color: #200151;
-}
-.highlight {
-  background-color: white;
-  color: #000000;
-}
-.mid-section {
+
+.rec-content {
   margin: auto;
-}
-.msg {
-  color: #ffffff;
-
-  font-family: Lato;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 19px;
-  text-align: justify;
+  display: flex;
+  flex-direction: column;
 }
 
 .card {
@@ -104,25 +71,54 @@ a {
   min-height: 1rem;
   border-radius: 10px;
   border-color: #ffffff;
-  box-shadow: 0px 6px 10px rgba(88, 124, 37, 0.5);
+  box-shadow: 0px 6px 10px rgba(143, 183, 196, 0.5);
   background: radial-gradient(rgba(32, 1, 81, 0.7) 0%, rgba(0, 0, 30, 0.5) 60%);
   transition: all 0.5s;
 }
+
 .card span {
   font-size: 1rem;
 }
-.rec-content {
-  display: flex;
-  flex-direction: column;
-  width: inherit;
-  text-align: left;
-}
+
 .rec-link {
   display: inline-block;
   max-width: 100px;
   margin-top: 25px;
   margin-bottom: 25px;
 }
+
+.rec-critic {
+  padding-left: 4vw;
+  padding-right: 4vw;
+}
+
+.mid-section {
+  margin: auto;
+}
+
+.rec-title {
+  padding-top: 1rem;
+}
+
+.topic-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.topic-tile {
+  padding: 1rem;
+  margin: 0.8rem;
+  border-radius: 30px;
+  background-color: #200151;
+}
+
+.highlight {
+  background-color: #64e8f1;
+  color: #000000;
+}
+
 .note {
-  margin-top: 7rem;
+  padding: 1rem;
 }

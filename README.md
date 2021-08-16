@@ -1,6 +1,18 @@
-# Getting Started with Create React App
+# Description
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a web app that Recommends different learning material based on Topics. Built using ReactJS.
+
+# Live Link
+
+https://letslearnrec.netlify.app/
+
+# Salient features are
+
+- Built using ReactJS
+- Recommending learning resource
+- One can choose from different topics as per intrest
+- list of different topics is shown
+- Description rating and a link to acess the resorces is provided with every recommendation
 
 ## Available Scripts
 

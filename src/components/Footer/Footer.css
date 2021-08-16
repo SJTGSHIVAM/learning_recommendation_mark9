@@ -1,8 +1,10 @@
 .footerLink {
-  color: #ffdd40;
+  color: #64e8f1;
+  padding: 1rem;
 }
+
 footer ul {
   display: flex;
-  justify-content: space-evenly;
-  /* align-items: flex-end; */
+  flex-direction: row;
+  justify-content: center;
 }
